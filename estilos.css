@@ -1,0 +1,20 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 30px;
+}
+
+#pombo {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+#pombo a:link, a:visited {
+    color: red;
+}
+
+#pombo a:hover {
+    color: white;
+    background-color: red;
+}
