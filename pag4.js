@@ -17,7 +17,7 @@ imagens.forEach(imagem => {
 botaoVerificar.addEventListener('click', () => {
     const selecaoCorreta = imagensSelecionadas.every(imagem => imagem.dataset.carro === 'true');
 
-    if (selecaoCorreta && imagensSelecionadas.length === 6) {
+    if (selecaoCorreta && imagensSelecionadas.length === 8) {
         window.location.href = 'pag5.html'; // Substitua pelo link desejado
     } else {
         window.location.href = 'link-incorreto.html'; // Substitua pelo link de erro

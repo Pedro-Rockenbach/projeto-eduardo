@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuva de Confetes Automática</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Evita barras de rolagem */
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        // Função para gerar confetes nos cantos da tela
+        function chuvaDeConfetes() {
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { x: 0.1, y: 0.8 } // Canto inferior esquerdo
+            });
+
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { x: 0.9, y: 0.8 } // Canto inferior direito
+            });
+        }
+
+        // Chama a função chuvaDeConfetes a cada 3 segundos (3000 milissegundos)
+        setInterval(chuvaDeConfetes, 3000);
+    </script>
+</body>
+</html>
