@@ -24,9 +24,6 @@ h1 {
 
 /*pagina 2*/
 
-#pag2{
-}
-
 #titulopag2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -115,4 +112,25 @@ button:hover {
 
 .images img.selecionada {
     border-color: blue;
+}
+
+
+#linkpag5 a:link, a:visited {
+    color: orangered;
+    text-decoration: none;
+    font-size: 27px;
+}
+
+#linkpag5 a:hover {
+    color: rgb(255, 184, 127);
+    background-color: orangered;
+    padding: 10px;
+}
+
+#interlude {
+    background-color: white;
+    text-align: center;
+    margin-left: 290px;
+    margin-right: 290px;
+    padding-bottom: 250px;
 }

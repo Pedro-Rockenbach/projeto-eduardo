@@ -6,7 +6,7 @@ document.getElementById('quiz-form').addEventListener('submit', function(event) 
     const respostaSelecionada = document.querySelector('input[name="q1"]:checked')?.value;
 
     if (respostaSelecionada === respostaCorreta) {
-        window.location.href = 'pag4.html'; // Redireciona para a página de acerto
+        window.location.href = 'interlude.html'; // Redireciona para a página de acerto
     } else {
         window.location.href = 'https://www.youtube.com/watch?v=dQw4w9WgXcQ'; // Redireciona para a página de erro
     }
