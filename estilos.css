@@ -93,3 +93,26 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.captcha-container {
+    width: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.images img.selecionada {
+    border-color: blue;
+}
