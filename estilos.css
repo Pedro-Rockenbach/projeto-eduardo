@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 #pombo {
@@ -27,7 +27,7 @@ h1 {
 #titulopag2 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    font-size: 19px;
     color : navy;
 }
 
@@ -134,10 +134,4 @@ button:hover {
     margin: 0;
     overflow: hidden; /* Evita barras de rolagem */
     text-align: center;
-    border: 6px solid rgba(39, 102, 249, 0.438);
-    border-radius: 6px;
-    margin-top: 70px;
-    margin-right: 300px;
-    margin-left: 300px;
-    padding-bottom: 400px;
 }
