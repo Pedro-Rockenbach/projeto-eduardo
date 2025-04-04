@@ -4,33 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chuva de Confetes Automática</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden; /* Evita barras de rolagem */
-        }
-    </style>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-    <script>
-        // Função para gerar confetes nos cantos da tela
-        function chuvaDeConfetes() {
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { x: 0.1, y: 0.8 } // Canto inferior esquerdo
-            });
+    <div id="final">
+        <h1>Feliz aniversário !!!!!</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni ex mollitia corrupti ea asperiores illo tempora laboriosam dicta, optio nulla officiis odit iusto natus facere laborum. Id, quae exercitationem.</p>
+    </div>
 
-            confetti({
-                particleCount: 100,
-                spread: 70,
-                origin: { x: 0.9, y: 0.8 } // Canto inferior direito
-            });
-        }
+    <div>
 
-        // Chama a função chuvaDeConfetes a cada 3 segundos (3000 milissegundos)
-        setInterval(chuvaDeConfetes, 3000);
-    </script>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+        <script>
+            // Função para gerar confetes nos cantos da tela
+            function chuvaDeConfetes() {
+                confetti({
+                    particleCount: 100,
+                    spread: 70,
+                    origin: { x: 0.1, y: 0.8 } // Canto inferior esquerdo
+                });
+
+                confetti({
+                    particleCount: 100,
+                    spread: 70,
+                    origin: { x: 0.9, y: 0.8 } // Canto inferior direito
+                });
+            }
+
+            // Chama a função chuvaDeConfetes a cada 3 segundos (3000 milissegundos)
+            setInterval(chuvaDeConfetes, 3000);
+        </script>
+    </div>
+    
 </body>
 </html>
